@@ -14,3 +14,4 @@ echo $hello.$name.$world;
 $tech_boost="tect";
 $tech_boost.="boost";
 echo $tech_boost;
+//練習
