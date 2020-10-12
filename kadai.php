@@ -32,3 +32,9 @@ $calender_2018 = [
 ];
 // 12月を表示する
 echo $calender_2018["December"];
+
+$name ="ito kaori";
+if ($name = "ito kaori"){
+    echo "私は".$name."です";}
+    else {echo $name."ではありません";}
+    
