@@ -1,21 +1,29 @@
 <?php
-$name ="ito kaori";
-if ($name = "ito kaori"){
-    echo "私は".$name."です";}
-    else {echo $name."ではありません";}
-    echo"\n";
+
+//課題１修正
+$name = "aaa";
+if ($name == "ito kaori") {
+    echo "私はあなたの名前です";
+} else { 
+        echo "あなたの名前ではありません";
+}   
+echo "\n";
     
+//課題２修正
 $total =0;
-    for ($i=0;$i<=10000;$i++){
-        $total += $i;}
-        echo $total;
-         echo"\n";
-        
+for ($i=1;$i<=10000;$i++){
+    $total += $i;
+}
+echo $total;
+echo "\n";
+       
+ //課題３修正      
 $fruits = array("apple","banana","orange","lemon","grapes");
-        foreach($fruits as $fruits){
-            echo $fruits;
-            echo"\n";
+        foreach($fruits as $fruit){
+            echo $fruit;
+            echo "\n";
         }
+
 
 //for文の始めの値を定義する
 $start = 1;
